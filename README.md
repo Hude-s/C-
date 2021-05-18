@@ -1,2 +1,2 @@
-# C-
-C语言学习
+# C
+//The C language learning
