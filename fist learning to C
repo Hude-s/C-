@@ -1,0 +1,10 @@
+#include<stdio.h>
+#define Pi 3.14159  //预定义圆周率Pi
+int main()
+{
+  float r,s;    //圆半径，面积变量。
+  printf("请输入圆的半径：");
+  scanf("%f",&r); //输入圆半径
+  s=Pi*r*r;
+  printf("圆的半径为：r=%f,圆的面积为：s=%f\n",r,s);//打印出圆的半径和面积。
+}
