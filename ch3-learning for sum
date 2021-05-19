@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+  int sum,i;
+  sum=0;
+  i=2;
+  while(i<=20)
+  {
+  sum+=i;
+  i=i+2;
+  }
+  printf("sum=%d\n",sum);
+}
